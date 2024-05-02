@@ -9,9 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@circle-fin/user-controlled-wallets": "^3.0.0",
+    "@circle-fin/w3s-pw-web-sdk": "^1.0.10",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "axios": "^1.6.8",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "next": "14.2.2",
+    "next-auth": "^4.24.7",
+    "next-connect": "^1.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.2"
+    "react-social-login-buttons": "^4.1.0",
+    "react-toastify": "^10.0.5",
+    "reactjs-social-login": "^2.6.3",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "postcss": "^8",
