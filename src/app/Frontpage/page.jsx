@@ -43,7 +43,6 @@ const Frontpage = () => {
             localStorage.setItem('userToken', JSON.stringify(result.data.userToken));
             localStorage.setItem('encryptionKey', JSON.stringify(result.data.encryptionKey));
             setTokenCreated(true);
-            console.log(result?.data);
         })
     };
 
